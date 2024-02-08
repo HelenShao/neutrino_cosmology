@@ -1,0 +1,24 @@
+# Settings for the Pantheon+ SN Ia sample.
+
+# Path to the data: where the sn_data has been cloned
+path: null
+# .dataset file with settings
+dataset_file: PantheonPlus/full_long.dataset
+
+# Overriding of .dataset parameters
+dataset_params:
+
+# Aliases for automatic covariance matrix
+aliases: [Pantheon+, PantheonPlus, PantheonP, Pantheonplus]
+
+# Sample magnitude
+use_abs_mag: True # If false - remove Mb from param list below
+
+# Use SH0Es distance calibration, needed for when sampling Mb
+use_shoes: False 
+
+# Use CLASS or CAMB
+require_theory: True
+
+# Speed in evaluations/second
+speed: 100 #4500
