@@ -1,6 +1,4 @@
-# Pantheon+ as implemented in cosmosis
-# Assuming m_b_corr has alpha/beta corr 
-# Only doing Mb correction (to theory) if sampled
+# Likelihood for Pantheon+ SNe data, following CosmoSIS implementation
 
 import numpy as np
 import os
